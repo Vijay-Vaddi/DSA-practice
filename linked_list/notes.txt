@@ -1,0 +1,22 @@
+Drawbacks of arrays:
+When arrays are full, to add more items, 
+array memory size can be increased in both static/dynamic arrays.
+But changing size and relocating whole array to new address costs O(n)
+inserting and deleting at the middle costs similar performance. (shifting index)
+
+hast tables are not always ordered(?)
+hash collisions are avoided using linked list(one of the options) 
+
+So linked list as an Option:
+List that is Linked. 
+
+Singly linked list. 
+
+Each block is called / Data element / node
+contains one field of data and a pointer/reference/link to another node and its data   
+
+first node is head, last is tail, and tail's pointer points to null
+hence linked lists are called Null terminated. 
+
+--Python deque is kind of implemented and works as linked list. 
+
