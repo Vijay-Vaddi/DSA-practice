@@ -45,8 +45,8 @@ def solution(directions):
             quadrant = 0
     
     print(quadrant)
-    
 
+    final_turns = {if direction N or E : 2, else S or W : 1 }
 
     #to calculate the number of direction turns needed to face back
     # if 'NESW'.index(direction) < 'NESW'.index('N'): 

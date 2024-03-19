@@ -20,3 +20,12 @@ hence linked lists are called Null terminated.
 
 --Python deque is kind of implemented and works as linked list. 
 
+LL search is O(n) since you have to search item by item. Traversal.
+Iterating via LL is slower than in array, due to caching, address/memory sequece. 
+both considered O(n)
+
+prepend and append O(1)
+lookup and insert (what to lookup and where to insert) O(n), same for delete
+
+
+
